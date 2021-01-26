@@ -137,10 +137,16 @@ iframe {
     height: 45vh;
 }
 
+/********  TURNING ON AND OFF PAGE ********/
+
 .page {
     display: none;
-    min-height: 100%;
 }
+
+.active {
+    display: block;
+}
+
 
 /********  PORTFOLIO PAGE ********/
 

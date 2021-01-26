@@ -17,8 +17,8 @@
             <div class="shade"></div>
         </div>
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#photo-gallery">PHOTOGRAPHY</a></li>
-            <li><a href="#film-gallery">FILM</a></li>
+            <li><a href="#photo-gallery" class="nav-links" data-target="photography" >PHOTOGRAPHY</a></li>
+            <li><a href="#film-gallery" class="nav-links" data-target="film" >FILM</a></li>
         </ul>
 
         <!-- Navigation bar -->
@@ -26,9 +26,9 @@
             <div class="nav-wrapper">
                 <a class="brand-logo">PVZ</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="dropdown-trigger nav-links" data-target="dropdown1">GALLERY</a></li>
-                    <li><a class="nav-links" href="#content">ABOUT</a></li>
-                    <li><a class="nav-links" href="#content">CONTACT</a></li>
+                    <li><a class="dropdown-trigger" data-target="dropdown1">GALLERY</a></li>
+                    <li><a class="nav-links" href="#about" data-target="about">ABOUT</a></li>
+                    <li><a class="nav-links" href="#contact" data-target="contact">CONTACT</a></li>
                     <li><a href="https://www.instagram.com/sebastian.pvz/" target="_blank" class="fa fa-instagram"></a></li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
         </div>
         <div class="home-img-3"></div>
         <div id="content">
-            <div class="init-content page">
+            <div class="init-content">
                 <div class="container">
                     <img src="../img/home-photo-1.jpg">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem quo eos aliquid? Tempora veritatis eaque excepturi nobis incidunt pariatur, eius perferendis quam fugiat dolores laboriosam, repellendus quidem ipsam voluptatum?</p>
@@ -53,7 +53,7 @@
 
             <!-- Portfolio Page -->
             <div id="portfolio">
-                <div class="photo-gallery " id="photo-gallery">
+                <div class="photo-gallery page" id="photo-gallery">
                     <header></header>
                     <div class="image">
                         <img src="../img/photo_album1.png">
