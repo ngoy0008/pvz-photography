@@ -1,0 +1,23 @@
+{
+  "name": "pvz-photography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoy0008/pvz-photography.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoy0008/pvz-photography/issues"
+  },
+  "homepage": "https://github.com/ngoy0008/pvz-photography#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
